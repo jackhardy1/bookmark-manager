@@ -11,4 +11,5 @@ class User
   property :password, String
 
   has n, :links, :through => Resource
+
 end
